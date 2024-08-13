@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    .header{
+        max-width: 1280px;
+        height: 88px;
+        background-color: #FFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 114px;
+        
+        .logo{
+      font-size: 32px;
+        }
+
+        .nav{
+           
+
+            ul{
+                display: flex;
+                gap: 44px;
+                align-items: center;
+                list-style: none;
+                font-size: 16px;
+                
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+
+        .login{
+            display: flex;
+            align-items: center;
+            gap: 43px;
+
+            button{
+                width: 100px;
+                height: 32px;
+                background-color: #0E0B3D;
+                color: white;
+                cursor: pointer;
+                border-radius: 40px;
+            }
+
+        }
+    }
+
+    .main{
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 20px;
+
+        .emails{
+            font-family: monospace;
+            max-width: 700px;
+            font-size: 54px;
+            margin: auto;
+          
+        }
+
+        .code{
+            max-width: 700px;
+            font-family: monospace;
+            font-size: 17px;
+            margin: auto;
+        }
+
+        button{
+            width: 143px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: #FFF;
+            background-color: #0E0B3D;
+            border-radius: 40px;
+            font-size: 13px;
+            margin-block-start: 50px;
+        }
+    }
+
+    .footer{
+        max-width: 1112px;
+        margin: auto;
+        height: 72px;
+        display: flex;
+        padding-inline: 22px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F7F9FC;
+        margin-block-start: 191px;
+
+        .terms{
+            display: flex;
+            gap: 31px;
+        }
+
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+}
